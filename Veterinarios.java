@@ -1,3 +1,8 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
 package Conceptos;
 
 import java.io.Serializable;
@@ -6,7 +11,9 @@ import java.io.Serializable;
 Hecho por Fabián Eduarte Linkimer y Luciana Mora Delgado
 #2026130994 | #2026006344
  */
+
 public class Veterinarios implements Serializable {
+    
     private String ID;
     private String nombre;
     private String puesto;
@@ -18,6 +25,10 @@ public class Veterinarios implements Serializable {
         this.nombre = nombre;
         this.puesto = puesto;
         this.telefono = telefono;
+    }
+
+    public Veterinarios(String ID, String nombre, String puesto) {
+        this(ID, nombre, puesto, "");
     }
 
     public String getID() {

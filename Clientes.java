@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package Conceptos;
 
 import java.io.Serializable;
@@ -6,7 +10,9 @@ import java.io.Serializable;
 Hecho por Fabián Eduarte Linkimer y Luciana Mora Delgado
 #2026130994 | #2026006344
  */
+
 public class Clientes implements Serializable {
+    
     private String ID;
     private String nombre;
     private String propietario;
@@ -14,6 +20,7 @@ public class Clientes implements Serializable {
     private String email;
     
     public Clientes(String ID, String nombre, String propietario, String telefono, String email) {
+        
         this.ID = ID;
         this.nombre = nombre;
         this.propietario = propietario;
